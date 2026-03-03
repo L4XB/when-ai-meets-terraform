@@ -1,0 +1,121 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: ACM-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: references.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--no key, author in aws_iac
+Warning--no author, editor, organization, or key in aws_iac
+Warning--to sort, need author or key in aws_iac
+Warning--no key, author in chef_iac
+Warning--no author, editor, organization, or key in chef_iac
+Warning--to sort, need author or key in chef_iac
+Warning--no key, author in claude_sonnet_2025
+Warning--no author, editor, organization, or key in claude_sonnet_2025
+Warning--to sort, need author or key in claude_sonnet_2025
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--no key, author in aws_iac
+Warning--no key, author in aws_iac
+Warning--no key, author in chef_iac
+Warning--no key, author in chef_iac
+Warning--no key, author in claude_sonnet_2025
+Warning--no key, author in claude_sonnet_2025
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--no key, author in claude_sonnet_2025
+Warning--empty organization in claude_sonnet_2025
+Warning--empty organization in claude_sonnet_2025
+Warning--no key, author in chef_iac
+Warning--empty organization in chef_iac
+Warning--empty organization in chef_iac
+Warning--no key, author in aws_iac
+Warning--empty organization in aws_iac
+Warning--empty organization in aws_iac
+Warning--empty organization in ali_iac_principles_2021
+Warning--no journal in article
+Warning--no number and no volume in article
+Warning--empty publisher in 9779848
+Warning--empty address in 9779848
+Warning--empty organization in hofferber_my_2024
+Warning--empty year in gunawat_ai-enhanced_nodate
+Warning--no journal in gunawat_ai-enhanced_nodate
+Warning--no number and no volume in gunawat_ai-enhanced_nodate
+Warning--page numbers missing in both pages and numpages fields in gunawat_ai-enhanced_nodate
+Warning--empty organization in hashicorp_terraform_iac_2025
+Warning--empty organization in hendrich_research_2024
+Warning--empty year in kalliamvakou_research_2022
+Warning--empty organization in kalliamvakou_research_2022
+Warning--no journal in kate_generative_iac_2024
+Warning--no number and no volume in kate_generative_iac_2024
+Warning--page numbers missing in both pages and numpages fields in kate_generative_iac_2024
+Warning--no journal in article_kate
+Warning--no number and no volume in article_kate
+Warning--empty year in kumar_ai-powered_2025
+Warning--empty organization in kumar_ai-powered_2025
+Warning--empty organization in lechner_terraform_mcp_2025
+Warning--empty organization in manuskhani_cascade_2024
+Warning--empty publisher in 10685197
+Warning--empty address in 10685197
+Warning--empty publisher in 9796235
+Warning--empty address in 9796235
+Warning--empty year in oertel_dont_2025
+Warning--no journal in oertel_dont_2025
+Warning--empty publisher in 10825958
+Warning--empty address in 10825958
+Warning--empty organization in redhat_iac_2025
+Warning--empty organization in roper_github_terraform_2024
+Warning--empty organization in roper_iac_bestpractices_2025
+Warning--empty organization in saadioui_integrating_2025
+Warning--empty organization in sewell_windsurf_2024
+Warning--empty organization in sun_terraform_2025
+Warning--empty year in thornton_why_2025
+Warning--empty organization in thornton_why_2025
+Warning--empty organization in vaiber_ai_iac_2025
+Warning--empty organization in windsurf_cascade_2025
+Warning--empty organization in windsurf_editor
+You've used 40 entries,
+            5981 wiz_defined-function locations,
+            1697 strings with 26021 characters,
+and the built_in function-call counts, 33735 in all, are:
+= -- 3782
+> -- 959
+< -- 0
++ -- 306
+- -- 362
+* -- 2351
+:= -- 3398
+add.period$ -- 195
+call.type$ -- 40
+change.case$ -- 243
+chr.to.int$ -- 38
+cite$ -- 118
+duplicate$ -- 3061
+empty$ -- 2186
+format.name$ -- 420
+if$ -- 7618
+int.to.chr$ -- 4
+int.to.str$ -- 1
+missing$ -- 54
+newline$ -- 515
+num.names$ -- 257
+pop$ -- 1208
+preamble$ -- 1
+purify$ -- 529
+quote$ -- 0
+skip$ -- 1246
+stack$ -- 0
+substring$ -- 2305
+swap$ -- 266
+text.length$ -- 19
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1065
+warning$ -- 66
+while$ -- 222
+width$ -- 0
+write$ -- 900
+(There were 66 warnings)

@@ -1,0 +1,117 @@
+\documentclass[sigconf]{acmart}
+
+\settopmatter{printacmref=false}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+\pagestyle{plain}
+
+% Additional packages
+\usepackage{listings}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{balance}
+\usepackage{cleveref}
+\usepackage[utf8]{inputenc}
+\usepackage{xurl}
+
+% Configure listings for Terraform code
+\lstset{
+    basicstyle=\footnotesize\ttfamily,
+    breaklines=true,
+    captionpos=b,
+    frame=tb,
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    showstringspaces=false,
+    tabsize=2,
+    commentstyle=\color{gray!70},
+    keywordstyle=\color{blue!80!black},
+    stringstyle=\color{red!70!black},
+    backgroundcolor=\color{gray!5}
+}
+
+% Custom commands for consistency
+\newcommand{\tool}[1]{\textsc{#1}}
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\file}[1]{\texttt{#1}}
+
+% Graphics path
+\graphicspath{{images/}}
+
+\begin{document}
+
+% Title and author information
+\title{When AI Meets Terraform: A Reality Check on Code Generation for Infrastructure-as-Code}
+
+\author{Lukas Buck}
+\affiliation{%
+  \institution{Reutlingen University - Faculty of Computer Science}
+  \streetaddress{Street Address}
+  \city{Reutlingen,} 
+  \state{\texttt{Baden-Württemberg}}
+  \country{Germany}
+  \postcode{Postal Code}
+}
+\email{Lukas.Buck@Student.Reutlingen-University.de}
+
+% Abstract
+\begin{abstract}
+Infrastructure-as-Code (IaC) has become indispensable for managing cloud resources, with Terraform emerging as the leading language for configuring such systems. While AI-powered coding assistants promise to accelerate development through code generation, their effectiveness for specialised domains such as IaC remains largely unexplored. This study presents a systematic evaluation of AI coding tools for Terraform development, comparing GitHub Copilot and Windsurf across 66 executions.
+
+
+We designed 11 representative Terraform tasks ranging from simple resource provisioning to complex multi-layered architectures, and ran each scenario three times per tool to evaluate both performance and consistency. Our evaluation framework measured functionality, completeness, and code quality. The respective values were then rated with numbers, with a maximum total score of 6 points.
+
+The results show significant differences in the capabilities of Copilot and Windsurf for IaC tasks. Copilot achieved an average score of 4.06 and Windsurf a score of 5.91. Windsurf remained very consistent across all tasks in terms of evaluation ($\sigma$ = 0.32), while Copilot showed great variance and quality ($\sigma$ = 1.35) in different implementations and tasks. However, both tools scored well with functioning code; only 3\% of the code written by Windsurf contained syntactic errors, while Copilot had no syntactic errors at all. On the other hand, there was a clear difference in the speed at which the AI assistants solved the tasks. Windsurf solved the tasks in an average of 75.1 seconds, while Copilot solved them in 29.2 seconds.
+
+Our results show that there are already promising AI tools available for implementing IaC projects, but further development and improvements are needed to ensure that developers can truly rely on the assistant. The study provides practical guidelines for developers and sets benchmarks for future research in the field of IaC automation. All experimental data and generated configurations are publicly available for reproducibility.
+
+\end{abstract}
+
+% CCS concepts
+\ccsdesc[500]{Computing methodologies~Artificial intelligence}
+\ccsdesc[300]{Software and its engineering~Software development process tools}  
+\ccsdesc[300]{Software and its engineering~Software testing and debugging}
+\ccsdesc[100]{Computer systems organization~Cloud computing}
+
+% Keywords
+\keywords{Infrastructure-as-Code, Terraform, AI-assisted programming, Code generation, 
+GitHub Copilot, Windsurf, DevOps automation, Cloud infrastructure, 
+Comparative evaluation}
+
+\maketitle
+
+% Include chapter files
+\input{chapters/01-introduction}
+
+\input{chapters/02-related-work}
+\input{chapters/03-methodology}
+\input{chapters/04-results}
+\input{chapters/05-discussion}
+\input{chapters/06-conclusion}
+
+% Acknowledgments
+\section*{Acknowledgments}
+This work was conducted independently. The author used Windsurf Cascade and GitHub Copilot via VisualSudioCode for the IaC evaluation and DeepL for language assistance.
+
+\appendix
+\section{Supplementary Materials}
+The code, results and experimental configurations used in this study are available at: \\
+\url{https://github.com/L4XB/terraform-ai-study}
+
+% Bibliography
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+
+% Balance columns
+\balance
+
+
+
+\end{document}
+
+
+
+
+

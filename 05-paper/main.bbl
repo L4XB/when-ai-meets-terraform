@@ -1,0 +1,515 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{40}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[cla(2025)]%
+        {claude_sonnet_2025}
+ \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Claude Sonnet 4}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.anthropic.com/claude/sonnet}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed: 2025-09-08}.
+
+
+\bibitem[che(nd)]%
+        {chef_iac}
+ \bibinfo{year}{n.d.}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Infrastructure as Code ({IaC}) Definition, Benefits \& More}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.chef.io/glossary/what-is-infrastructure-as-code}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed on September 7, 2025}.
+
+
+\bibitem[aws(nd)]%
+        {aws_iac}
+ \bibinfo{year}{n.d.}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Was ist Infrastructure as Code? – {IaC} erklärt}}.
+\newblock
+\urldef\tempurl%
+\url{https://aws.amazon.com/de/what-is/iac/}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Zugriff am 7. September 2025}.
+
+
+\bibitem[Ali(2021)]%
+        {ali_iac_principles_2021}
+\bibfield{author}{\bibinfo{person}{Mir Ali}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{5 Principles of Infrastructure-as-Code ({IaC})}}.
+\newblock
+\urldef\tempurl%
+\url{https://dzone.com/articles/5-principles-of-infrastructure-as-code-iac}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed on September 7, 2025}.
+
+
+\bibitem[Arena(2024)]%
+        {article}
+\bibfield{author}{\bibinfo{person}{Frank Arena}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Error-Free Cloud Deployments: Automated Validation and IaC Best Practices}.
+\newblock  (\bibinfo{date}{09} \bibinfo{year}{2024}).
+\newblock
+
+
+\bibitem[Chiari et~al\mbox{.}(2022)]%
+        {9779848}
+\bibfield{author}{\bibinfo{person}{Michele Chiari}, \bibinfo{person}{Michele De~Pascalis}, {and} \bibinfo{person}{Matteo Pradella}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Static Analysis of Infrastructure as Code: a Survey}. In \bibinfo{booktitle}{\emph{2022 IEEE 19th International Conference on Software Architecture Companion (ICSA-C)}}. \bibinfo{pages}{218--225}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/ICSA-C54293.2022.00049}
+\showDOI{\tempurl}
+
+
+\bibitem[{Dalla Palma} et~al\mbox{.}(2020)]%
+        {DALLAPALMA2020110726}
+\bibfield{author}{\bibinfo{person}{Stefano {Dalla Palma}}, \bibinfo{person}{Dario {Di Nucci}}, \bibinfo{person}{Fabio Palomba}, {and} \bibinfo{person}{Damian~Andrew Tamburri}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Toward a catalog of software quality metrics for infrastructure code}.
+\newblock \bibinfo{journal}{\emph{Journal of Systems and Software}}  \bibinfo{volume}{170} (\bibinfo{year}{2020}), \bibinfo{pages}{110726}.
+\newblock
+\showISSN{0164-1212}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.jss.2020.110726}
+\showDOI{\tempurl}
+
+
+\bibitem[Discussion and Hofferber(2024)]%
+        {hofferber_my_2024}
+\bibfield{author}{\bibinfo{person}{Stable Discussion} {and} \bibinfo{person}{Ben Hofferber}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{My Initial Review of Windsurf}}.
+\newblock
+\urldef\tempurl%
+\url{https://blog.stablediscussion.com/p/my-initial-review-of-windsurf}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Geladin(2024)]%
+        {geladin_iac_ai_2024}
+\bibfield{author}{\bibinfo{person}{Jr. Geladin, Daniel~Martin}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \emph{\bibinfo{title}{Analyzing the Impact of Generative {AI} Models on {IaC} Code Quality}}.
+\newblock Ph.D. Dissertation. \bibinfo{school}{National University}.
+\newblock
+\urldef\tempurl%
+\url{https://www.proquest.com/openview/d2eb84a0e25955816de2c4e31e6afff6/1?pq-origsite=gscholar&cbl=18750&diss=y}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed on September 8, 2025. ProQuest Dissertations \& Theses Global.}.
+
+
+\bibitem[Gunawat and Khanna({[n.\,d.]})]%
+        {gunawat_ai-enhanced_nodate}
+\bibfield{author}{\bibinfo{person}{Chhaya Gunawat} {and} \bibinfo{person}{Atul Khanna}.} \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \showarticletitle{{AI}-Enhanced Infrastructure as Code ({IaC}) for Smart Configuration Management}.
+\newblock  (\bibinfo{year}{[n.\,d.]}).
+\newblock
+
+
+\bibitem[{HashiCorp}(nd)]%
+        {hashicorp_terraform_iac_2025}
+\bibfield{author}{\bibinfo{person}{{HashiCorp}}.} \bibinfo{year}{n.d.}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{What is Infrastructure as Code with Terraform?}}
+\newblock
+\urldef\tempurl%
+\url{https://developer.hashicorp.com/terraform/tutorials/aws-get-started/infrastructure-as-code}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed on September 7, 2025}.
+
+
+\bibitem[Hendrich(2024)]%
+        {hendrich_research_2024}
+\bibfield{author}{\bibinfo{person}{Lucas Hendrich}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Research Shows {AI} Coding Assistants Can Improve Developer Productivity}}.
+\newblock
+\urldef\tempurl%
+\url{https://fortegrp.com/insights/ai-coding-assistants}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{3 min read}.
+
+
+\bibitem[Kalliamvakou({[n.\,d.]})]%
+        {kalliamvakou_research_2022}
+\bibfield{author}{\bibinfo{person}{Eirini Kalliamvakou}.} \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Research: quantifying {GitHub} Copilot’s impact on developer productivity and happiness}}.
+\newblock
+\urldef\tempurl%
+\url{https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-on-developer-productivity-and-happiness/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Kate(2024a)]%
+        {kate_generative_iac_2024}
+\bibfield{author}{\bibinfo{person}{Austin Kate}.} \bibinfo{year}{2024}\natexlab{a}.
+\newblock \showarticletitle{Generative {AI} for Infrastructure as Code ({IaC}): Automating {DevOps} Configuration, Scripting, and Workflow Management with {LLMs}}.
+\newblock  (\bibinfo{date}{22 september} \bibinfo{year}{2024}).
+\newblock
+\newblock
+\shownote{Published on September 22, 2024}.
+
+
+\bibitem[Kate(2024b)]%
+        {article_kate}
+\bibfield{author}{\bibinfo{person}{Austin Kate}.} \bibinfo{year}{2024}\natexlab{b}.
+\newblock \showarticletitle{Generative AI for Infrastructure as Code (IaC): Automating DevOps Configuration, Scripting, and Workflow Management with LLMs}.
+\newblock  (\bibinfo{date}{09} \bibinfo{year}{2024}).
+\newblock
+
+
+\bibitem[Khan et~al\mbox{.}(2025)]%
+        {khan2025kodezichronosdebuggingfirstlanguage}
+\bibfield{author}{\bibinfo{person}{Ishraq Khan}, \bibinfo{person}{Assad Chowdary}, \bibinfo{person}{Sharoz Haseeb}, \bibinfo{person}{Urvish Patel}, {and} \bibinfo{person}{Yousuf Zaii}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{Kodezi Chronos: A Debugging-First Language Model for Repository-Scale Code Understanding}.
+\newblock
+\newblock
+\showeprint[arxiv]{2507.12482}~[cs.SE]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2507.12482}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Konala et~al\mbox{.}(2025)]%
+        {konala2025frameworkmeasuringqualityinfrastructureascode}
+\bibfield{author}{\bibinfo{person}{Pandu Ranga~Reddy Konala}, \bibinfo{person}{Vimal Kumar}, \bibinfo{person}{David Bainbridge}, {and} \bibinfo{person}{Junaid Haseeb}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{A Framework for Measuring the Quality of Infrastructure-as-Code Scripts}.
+\newblock
+\newblock
+\showeprint[arxiv]{2502.03127}~[cs.SE]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2502.03127}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Kumar({[n.\,d.]})]%
+        {kumar_ai-powered_2025}
+\bibfield{author}{\bibinfo{person}{K.~G.~Aravinda Kumar}.} \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{AI}-Powered Infrastructure as Code — Accelerate Deployment with Automated Script Generation}}.
+\newblock
+\urldef\tempurl%
+\url{https://aravindakumar.medium.com/ai-powered-infrastructure-as-code-accelerate-deployment-with-automated-script-generation-1d6cf269f43f}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Lechner(2025)]%
+        {lechner_terraform_mcp_2025}
+\bibfield{author}{\bibinfo{person}{Christian Lechner}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Test Drive the Terraform {MCP} Server with {GitHub} Copilot Chat}}.
+\newblock
+\urldef\tempurl%
+\url{https://dev.to/lechnerc77/test-drive-the-terraform-mcp-server-with-github-copilot-chat-3jf1}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Published on May 22, 2025. Accessed on September 8, 2025}.
+
+
+\bibitem[Manuskhani and Zukerman(2024)]%
+        {manuskhani_cascade_2024}
+\bibfield{author}{\bibinfo{person}{Subir Manuskhani} {and} \bibinfo{person}{Yuval Zukerman}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Cascade {AI}: Full {LLM} Power, 60\% Cheaper {\textbar} Mixture of Thought {\textbar} Domino}}.
+\newblock
+\urldef\tempurl%
+\url{https://domino.ai/blog/full-llm-power-60-percent-cheaper}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Miah and Zhu(2024)]%
+        {10685197}
+\bibfield{author}{\bibinfo{person}{Tanha Miah} {and} \bibinfo{person}{Hong Zhu}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{User Centric Evaluation of Code Generation Tools (Invited Paper)}. In \bibinfo{booktitle}{\emph{2024 IEEE International Conference on Artificial Intelligence Testing (AITest)}}. \bibinfo{pages}{109--119}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/AITest62860.2024.00022}
+\showDOI{\tempurl}
+
+
+\bibitem[Mo et~al\mbox{.}(2025)]%
+        {10.1145/3715108}
+\bibfield{author}{\bibinfo{person}{Ran Mo}, \bibinfo{person}{Dongyu Wang}, \bibinfo{person}{Wenjing Zhan}, \bibinfo{person}{Yingjie Jiang}, \bibinfo{person}{Yepeng Wang}, \bibinfo{person}{Yuqi Zhao}, \bibinfo{person}{Zengyang Li}, {and} \bibinfo{person}{Yutao Ma}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Assessing and Analyzing the Correctness of GitHub Copilot’s Code Suggestions}.
+\newblock \bibinfo{journal}{\emph{ACM Trans. Softw. Eng. Methodol.}} \bibinfo{volume}{34}, \bibinfo{number}{7}, Article \bibinfo{articleno}{194} (\bibinfo{date}{Aug.} \bibinfo{year}{2025}), \bibinfo{numpages}{32}~pages.
+\newblock
+\showISSN{1049-331X}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3715108}
+\showDOI{\tempurl}
+
+
+\bibitem[Nguyen and Nadi(2022)]%
+        {9796235}
+\bibfield{author}{\bibinfo{person}{Nhan Nguyen} {and} \bibinfo{person}{Sarah Nadi}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{An Empirical Evaluation of GitHub Copilot's Code Suggestions}. In \bibinfo{booktitle}{\emph{2022 IEEE/ACM 19th International Conference on Mining Software Repositories (MSR)}}. \bibinfo{pages}{1--5}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3524842.3528470}
+\showDOI{\tempurl}
+
+
+\bibitem[Oertel et~al\mbox{.}({[n.\,d.]})]%
+        {oertel_dont_2025}
+\bibfield{author}{\bibinfo{person}{Julian Oertel}, \bibinfo{person}{Jil Klünder}, {and} \bibinfo{person}{Regina Hebig}.} \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \showarticletitle{Don’t settle for the first! How many {GitHub} Copilot solutions should you check?}
+\newblock   \bibinfo{volume}{183} (\bibinfo{year}{[n.\,d.]}), \bibinfo{pages}{107737}.
+\newblock
+\showISSN{09505849}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.infsof.2025.107737}
+\showDOI{\tempurl}
+
+
+\bibitem[Ouyang et~al\mbox{.}(2025)]%
+        {10.1145/3697010}
+\bibfield{author}{\bibinfo{person}{Shuyin Ouyang}, \bibinfo{person}{Jie~M. Zhang}, \bibinfo{person}{Mark Harman}, {and} \bibinfo{person}{Meng Wang}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{An Empirical Study of the Non-Determinism of ChatGPT in Code Generation}.
+\newblock \bibinfo{journal}{\emph{ACM Trans. Softw. Eng. Methodol.}} \bibinfo{volume}{34}, \bibinfo{number}{2}, Article \bibinfo{articleno}{42} (\bibinfo{date}{Jan.} \bibinfo{year}{2025}), \bibinfo{numpages}{28}~pages.
+\newblock
+\showISSN{1049-331X}
+\urldef\tempurl%
+\url{https://doi.org/10.1145/3697010}
+\showDOI{\tempurl}
+
+
+\bibitem[Pandey et~al\mbox{.}(2024)]%
+        {pandey2024transformingsoftwaredevelopmentevaluating}
+\bibfield{author}{\bibinfo{person}{Ruchika Pandey}, \bibinfo{person}{Prabhat Singh}, \bibinfo{person}{Raymond Wei}, {and} \bibinfo{person}{Shaila Shankar}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{Transforming Software Development: Evaluating the Efficiency and Challenges of GitHub Copilot in Real-World Projects}.
+\newblock
+\newblock
+\showeprint[arxiv]{2406.17910}~[cs.SE]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2406.17910}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Patel et~al\mbox{.}(2024)]%
+        {10825958}
+\bibfield{author}{\bibinfo{person}{Abhi Patel}, \bibinfo{person}{Kazi~Zakia Sultana}, {and} \bibinfo{person}{Bharath~K. Samanthula}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{A Comparative Analysis between AI Generated Code and Human Written Code: A Preliminary Study}. In \bibinfo{booktitle}{\emph{2024 IEEE International Conference on Big Data (BigData)}}. \bibinfo{pages}{7521--7529}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/BigData62323.2024.10825958}
+\showDOI{\tempurl}
+
+
+\bibitem[{Red Hat}(2025)]%
+        {redhat_iac_2025}
+\bibfield{author}{\bibinfo{person}{{Red Hat}}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{What is Infrastructure as Code ({IaC})?}}
+\newblock
+\urldef\tempurl%
+\url{https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Updated June 20, 2025. Accessed on September 7, 2025}.
+
+
+\bibitem[Roper(2024)]%
+        {roper_github_terraform_2024}
+\bibfield{author}{\bibinfo{person}{Jack Roper}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{How to Use {GitHub} Copilot for Terraform Infrastructure}}.
+\newblock
+\urldef\tempurl%
+\url{https://spacelift.io/blog/github-copilot-terraform}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Published on August 5, 2024. Accessed on September 8, 2025}.
+
+
+\bibitem[Roper(2025)]%
+        {roper_iac_bestpractices_2025}
+\bibfield{author}{\bibinfo{person}{Jack Roper}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Infrastructure as Code: Best Practices, Benefits \& Examples}}.
+\newblock
+\urldef\tempurl%
+\url{https://spacelift.io/blog/infrastructure-as-code}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Updated May 23, 2025. Accessed on September 7, 2025}.
+
+
+\bibitem[Saadioui(2025)]%
+        {saadioui_integrating_2025}
+\bibfield{author}{\bibinfo{person}{Zack Saadioui}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Integrating DevOps Practices with Windsurf: Elevate Your Workflow}}.
+\newblock
+\urldef\tempurl%
+\url{https://www.arsturn.com/blog/integrating-devops-practices-into-your-workflow-with-windsurf}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed on 2025-09-08}.
+
+
+\bibitem[Sabra et~al\mbox{.}(2025)]%
+        {sabra2025assessingqualitysecurityaigenerated}
+\bibfield{author}{\bibinfo{person}{Abbas Sabra}, \bibinfo{person}{Olivier Schmitt}, {and} \bibinfo{person}{Joseph Tyler}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{Assessing the Quality and Security of AI-Generated Code: A Quantitative Analysis}.
+\newblock
+\newblock
+\showeprint[arxiv]{2508.14727}~[cs.SE]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2508.14727}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Sewell(2024)]%
+        {sewell_windsurf_2024}
+\bibfield{author}{\bibinfo{person}{Steve Sewell}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Windsurf vs Cursor: Which is the Better {AI} Code Editor?}}
+\newblock
+\urldef\tempurl%
+\url{https://www.builder.io/blog/windsurf-vs-cursor}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Sokolowski et~al\mbox{.}(2024)]%
+        {10516612}
+\bibfield{author}{\bibinfo{person}{Daniel Sokolowski}, \bibinfo{person}{David Spielmann}, {and} \bibinfo{person}{Guido Salvaneschi}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Automated Infrastructure as Code Program Testing}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Software Engineering}} \bibinfo{volume}{50}, \bibinfo{number}{6} (\bibinfo{year}{2024}), \bibinfo{pages}{1585--1599}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/TSE.2024.3393070}
+\showDOI{\tempurl}
+
+
+\bibitem[Sun(2025)]%
+        {sun_terraform_2025}
+\bibfield{author}{\bibinfo{person}{Mike Sun}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Terraform, AI, and Windsurf}}.
+\newblock
+\urldef\tempurl%
+\url{https://mightnent.medium.com/terraform-ai-and-windsurf-acfdcf98ca5b}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed on 2025-09-08}.
+
+
+\bibitem[Thornton({[n.\,d.]})]%
+        {thornton_why_2025}
+\bibfield{author}{\bibinfo{person}{Thomas Thornton}.} \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Why You Should Setup Terraform {MCP} Server with {GitHub} Copilot}}.
+\newblock
+\urldef\tempurl%
+\url{https://thomasthornton.cloud/2025/07/10/why-you-should-setup-terraform-mcp-server-with-github-copilot/}
+\showURL{%
+\tempurl}
+
+
+\bibitem[vAIber(2025)]%
+        {vaiber_ai_iac_2025}
+\bibfield{author}{\bibinfo{person}{vAIber}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The Future of {IT} Ops: {AI}-Powered Infrastructure as Code}}.
+\newblock
+\urldef\tempurl%
+\url{https://dev.to/vaib/the-future-of-it-ops-ai-powered-infrastructure-as-code-2chm}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Published on June 18, 2025. Accessed on September 8, 2025}.
+
+
+\bibitem[{Windsurf}(nda)]%
+        {windsurf_cascade_2025}
+\bibfield{author}{\bibinfo{person}{{Windsurf}}.} \bibinfo{year}{n.d.}\natexlab{a}.
+\newblock \bibinfo{booktitle}{\emph{Cascade}}.
+\newblock
+\urldef\tempurl%
+\url{https://windsurf.com/cascade}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed on September 8, 2025}.
+
+
+\bibitem[{Windsurf}(ndb)]%
+        {windsurf_editor}
+\bibfield{author}{\bibinfo{person}{{Windsurf}}.} \bibinfo{year}{n.d.}\natexlab{b}.
+\newblock \bibinfo{booktitle}{\emph{Windsurf Editor | Windsurf}}.
+\newblock
+\urldef\tempurl%
+\url{https://windsurf.com/editor}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{Accessed on 2025-09-08}.
+
+
+\bibitem[Yetiştiren et~al\mbox{.}(2023)]%
+        {yetistiren2023evaluating}
+\bibfield{author}{\bibinfo{person}{Burak Yetiştiren}, \bibinfo{person}{Işık Özsoy}, \bibinfo{person}{Miray Ayerdem}, {and} \bibinfo{person}{Eray Tüzün}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{Evaluating the Code Quality of AI-Assisted Code Generation Tools: An Empirical Study on GitHub Copilot, Amazon CodeWhisperer, and ChatGPT}.
+\newblock
+\newblock
+\showeprint[arxiv]{2304.10778}~[cs.SE]
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2304.10778}
+\showURL{%
+\tempurl}
+\newblock
+\shownote{arXiv:2304.10778 [cs.SE]}.
+
+
+\end{thebibliography}
